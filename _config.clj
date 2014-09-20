@@ -44,8 +44,39 @@
                      "/css/responsive.css"
                      "/css/customizer/pages.css"
                      "/css/customizer/home-pages-customizer.css"]
-        :device-css ["/css/smartphone.css"]
-        :js         ["/js/main.js"]}
+        :device-css []
+        :js         ["http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+                     "js/bootstrap.min.js"
+                     "js/jquery.carouFredSel-6.2.1-packed.js"
+                     "js/jquery.touchSwipe.min.js"
+                     "js/jquery.elevateZoom-3.0.8.min.js"
+                     "js/jquery.imagesloaded.min.js"
+                     "js/jquery.appear.js"
+                     "js/jquery.sparkline.min.js"
+                     "js/jquery.easypiechart.min.js"
+                     "js/jquery.easing.1.3.js"
+                     "js/jquery.fancybox.pack.js"
+                     "js/isotope.pkgd.min.js"
+                     "js/jquery.knob.js"
+                     "js/jquery.stellar.min.js"
+                     "js/jquery.selectBox.min.js"
+                     "js/jquery.royalslider.min.js"
+                     "js/jquery.tubular.1.0.js"
+                     "js/country.js"
+                     "js/spin.min.js"
+                     "js/ladda.min.js"
+                     "js/masonry.pkgd.min.js"
+                     "js/morris.min.js"
+                     "js/raphael.min.js"
+                     "js/video.js"
+                     "js/pixastic.custom.js"
+                     "js/livicons-1.3.min.js"
+                     "js/layerslider/greensock.js"
+                     "js/layerslider/layerslider.transitions.js"
+                     "js/layerslider/layerslider.kreaturamedia.jquery.js"
+                     "js/revolution/jquery.themepunch.plugins.min.js"
+                     "js/revolution/jquery.themepunch.revolution.min.js"
+                     "js/main.js"]}
 
  ;; post file compile hook
  :compile-with-post ["index.html.clj" "atom.xml.clj"]
