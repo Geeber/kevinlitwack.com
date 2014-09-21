@@ -1,0 +1,8 @@
+-Add content for pages from live site
+-Add old blog posts
+-Upload to S3
+-Improve layout/appearance
+-Update personal bio
+-Add Google Analytics
+-Implement blog archives
+-Refactor to avoid duplication of code in pages

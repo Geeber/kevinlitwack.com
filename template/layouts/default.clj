@@ -16,14 +16,14 @@
   [:nav {:class "collapse collapsing navbar-collapse"}
    [:ul {:class "nav navbar-nav navbar-center"}
     [:li.parent
-     (link "Personal" "#")
+     (link "Personal" "personal/about.html")
      [:ul.sub
       [:li (link "About Me" "personal/about.html")]
       [:li (link "Burning Man" "personal/burningman.html")]
       [:li (link "Kallisti" "personal/kallisti.html")]]]
 
     [:li.parent
-     (link "Professional" "#")
+     (link "Professional" "professional/keen.html")
      [:ul.sub
       [:li (link "Keen" "professional/keen.html")]
       [:li (link "Consulting" "professional/consulting.html")]
@@ -32,7 +32,6 @@
     [:li.parent
      (link "Blog" "blog/index.html")
      [:ul.sub
-      [:li (link "Archives" "blog/archives.html")]
       [:li (link "Tags" "blog/tags.html")]
       [:li (link "RSS Feed" "atom.xml")]]]
 

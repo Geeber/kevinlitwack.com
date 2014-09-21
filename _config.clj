@@ -1,7 +1,7 @@
 {
  ;; directory setting
  :public-dir   "public/"
- :tag-out-dir  "tag/"
+ :tag-out-dir  "blog/tag/"
  :template-dir "template/"
  :post-dir     "posts/"
  :layout-dir   "layouts/"
