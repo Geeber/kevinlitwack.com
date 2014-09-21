@@ -33,7 +33,7 @@
      (link "Blog" "blog/index.html")
      [:ul.sub
       [:li (link "Tags" "blog/tags.html")]
-      [:li (link "RSS Feed" "atom.xml")]]]
+      [:li (link "Atom Feed" "atom.xml")]]]
 
     [:li (link "Contact" "contact.html")]]]))
 
