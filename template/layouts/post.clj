@@ -1,14 +1,10 @@
 ; @layout  default
 ; @title   post default title
 
-; site header
-(header (:site-title site))
-
 [:article
- ; page header
- [:div {:class "page-header"}
+ [:div
   ; post title
-  (h1 (:title site))
+  [:h1 (:title site)]
   ; post tags
   (post-tags)
   ; post date

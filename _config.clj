@@ -12,6 +12,7 @@
  ;;     "/"    => "/YYYY-MM/POST.html"
  ;;     "/foo" => "/foo/YYYY-MM/POST.html"
  :url-base     "/"
+ :blog-base    "/blog"
 
  ;; dev server port
  ;;   default value: 8080
@@ -99,11 +100,11 @@
 
  ;; post number per page
  ;;   default value: nil (disabled pagination)
- :posts-per-page 2
+ :posts-per-page 3
 
  ;; filename format to generate index file with pagination
  ;;   default value: "page$(page)/$(filename)"
- :page-filename-format "page$(page)/$(filename)"
+ :page-filename-format "blog/page$(page)/$(filename)"
 
  ;; clojurescript compile options
  ;; src-dir base is `:template-dir`

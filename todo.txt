@@ -6,3 +6,4 @@
 -Add Google Analytics
 -Implement blog archives
 -Refactor to avoid duplication of code in pages
+-Fix duplication of "blog" in pagination URLs
