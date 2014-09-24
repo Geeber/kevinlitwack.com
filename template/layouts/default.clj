@@ -58,7 +58,7 @@
          :title "Evolving Ideas - Kevin Litwack's Blog"
          :type  "application/atom+xml"}]
 
- (css ["/css/prettify.css" (:css site ())])
+ (css ["/css/prettify.css" (:css site ()) (:extra-css site ())])
 ; (css {:media "only screen and (max-device-width:480px)"} (:device-css site))
  (css "/css/ie/ie.css")]
 ; /head

@@ -1,9 +1,10 @@
--Add content for pages from live site
--Add old blog posts
+-Add content for resume and contact pages from live site
+-Write content for Keen page
+-Review/edit content for all existing pages, but especially Consulting page
+-Update personal bio
+-Make layout/appearance minimally acceptable for publication
 -Upload to S3
 -Improve layout/appearance
--Update personal bio
 -Add Google Analytics
--Implement blog archives
 -Refactor to avoid duplication of code in pages
 -Fix duplication of "blog" in pagination URLs
