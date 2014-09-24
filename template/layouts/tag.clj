@@ -1,14 +1,10 @@
 ; @layout  default
 ; @title   tag default title
 
-; site header
-(header (:site-title site))
+[:div {:class "title-box text-center col-sm-12 col-md-12"}
+  [:h1 {:class "title"} "\"" (:tag-name site) "\" Posts"]
+ ]
 
-[:article
- ; page header
- [:div {:class "page-header"}
-  (h1 (:tag-name site))]
-
- (ul #(link (:title %) (:url %))
+[:div {:class "bottom-padding col-sm-6 col-md-6"}
+ (ul #(link (str (:title %) " - " (misaki.util.date/date->string (:date %))) (:url %))
      (:posts site))]
-
