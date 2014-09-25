@@ -23,7 +23,7 @@
  :lang "en"
 
  ;; default site data
- :site {:atom-base  "http://kevinlitwack.com"
+ :site {:atom-base  "http://kevinlitwack.com/"
         :charset    "utf-8"
         :blog-title "Evolving Ideas"
         :site-title "Kevin Litwack"
@@ -81,7 +81,7 @@
                      "js/main.js"]}
 
  ;; post file compile hook
- :compile-with-post ["index.html.clj" "atom.xml.clj"]
+ :compile-with-post ["blog/index.html.clj" "blog/tags.html.clj" "atom.xml.clj"]
 
  ;; tag setting
  :tag-layout "tag"

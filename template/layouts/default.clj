@@ -71,22 +71,25 @@
    [:header {:class "header header-two"}
     [:div.container
      [:div.row
-      [:div {:class "col-xs-6 col-md-2 col-lg-3 logo-box"}
+      [:div {:class "col-xs-6 col-md-3 col-lg-3 logo-box"}
        [:div.logo
         [:a {:href "/"}
             [:img {:src "/img/logo2.png" :class "logo-img" :alt ""}]
         ]]]
 
-      [:div {:class "col-xs-6 col-md-10 col-lg-9 right-box"}
+      [:div {:class "col-xs-6 col-md-6 col-lg-6 right-box"}
        [:div.right-box-wrapper
         [:div.primary
          [:div {:class "navbar navbar-default" :role "navigation"}
           (menu)]]]]]]]
 
    [:section#main
-    [:article.content
+    [:header.page-header
      [:div.container
-      [:div.row contents]]]]]]
+      [:h1.title (:title site)]]]
+    [:div.container
+     [:div.row
+      [:article {:class "content col-sm-12 col-md-9 col-lg-8"} contents]]]]]]
 
  [:footer#footer
   [:div.footer-bottom
