@@ -25,6 +25,7 @@
  ;; default site data
  :site {:atom-base  "http://kevinlitwack.com"
         :charset    "utf-8"
+        :blog-title "Evolving Ideas"
         :site-title "Kevin Litwack"
         :twitter    "KevinLitwack"
         :css        ["http://fonts.googleapis.com/css?family=Josefin+Sans"
