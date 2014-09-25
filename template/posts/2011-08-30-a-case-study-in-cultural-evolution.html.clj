@@ -1,6 +1,6 @@
 ; @layout  post
 ; @title   A Case Study in Cultural Evolution
-; @tag     Memetics
+; @tag     Memetics, Burning Man
 
 (p "This week I'm participating in the "
    (link "Burning Man" "http://www.burningman.com")

@@ -55,7 +55,7 @@
    selection is a complex process, because it's inextricably tied to human psychology. A meme(plex)
    is well-adapted "
    [:em "if and only if"]
-   "it is capable of getting a large number of human brains to adopt it.  To say that this is a
+   " it is capable of getting a large number of human brains to adopt it.  To say that this is a
    moving target is perhaps an understatement.")
 
 (p "To me, the question of selection criteria is the most fascinating aspect of memetics. It seems

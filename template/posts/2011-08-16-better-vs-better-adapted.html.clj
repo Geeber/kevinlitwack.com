@@ -1,5 +1,5 @@
 ; @layout  post
-; @title   An Introduction to Memetics
+; @title   "Better" vs. "Better Adapted"
 ; @tag     Memetics
 
 (p "In contemporary English, the word \"evolution\" has taken on a number of connotations that fall
@@ -7,8 +7,9 @@
    (link "dictionary.com" "http://dictionary.reference.com/browse/evolution")
    " lists one definition as:")
 
-(p "\"a process of gradual, peaceful, progressive change or development, as in social or economic
-   structure or institutions.\"")
+(blockquote
+  "\"a process of gradual, peaceful, progressive change or development, as in social or economic
+  structure or institutions.\"")
 
 (p "This usage has the potential to confuse scientific discussions about evolution, such as this
    blog, so I thought I'd spend a post clearing things up a little.")

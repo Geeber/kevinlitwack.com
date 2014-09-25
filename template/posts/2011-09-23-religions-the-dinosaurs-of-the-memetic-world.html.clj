@@ -1,6 +1,6 @@
 ; @layout  post
 ; @title   Religions: The Dinosaurs of the Memetic World
-; @tag     Memetics
+; @tag     Memetics, Religion
 
 (p [:em "Caveat: Today's topic can be a controversial one, so let me invite readers to come to it
         with an open mind. My intent isn't to pass judgment or challenge anyone's beliefs, but
