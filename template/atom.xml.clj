@@ -1,7 +1,7 @@
 (str "<?xml version=\"1.0\" encoding=\"" (:charset site) "\"?>")
 [:feed {:xmlns "http://www.w3.org/2005/Atom"}
  [:title   (:blog-title site)]
- [:link    {:href (str (:atom-base site) "/atom.xml"), :rel "self"}]
+ [:link    {:href (str (:atom-base site) "atom.xml"), :rel "self"}]
  [:link    {:href (:atom-base site)}]
  [:updated (date->xml-schema (clj-time.core/now))]
  [:id      (:atom-base site)]
