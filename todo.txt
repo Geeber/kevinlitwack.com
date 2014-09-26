@@ -1,17 +1,20 @@
 Required for "Launch":
--Write content for Keen page
--Review/edit content for all existing pages, but especially Consulting page
 -Update personal bio
--Make layout/appearance minimally acceptable for publication
 -Add error.html page
 
 Post-launch:
 -Add Google Analytics
--Write blog post about set-up (Misaki, S3, Progressive)
+-Improve blog post layout
 -Add pictures (Kallisti, Burning Man, About Me, Keen IO)
 -Improve how pagination works
  -Add most recent post to blog index
  -Refactor to avoid duplication of code in pages
  -Fix duplication of "blog" in pagination URLs
 -Improve layout/appearance
+ -Add sidebars
 -Use CloudFront (http://docs.aws.amazon.com/gettingstarted/latest/swh/getting-started-create-cfdist.html)
+
+Content:
+-Write blog post about set-up (Misaki, S3, Progressive)
+-Add blog post from Keen IO blog (once it goes live)
+-Embarrassments of our era

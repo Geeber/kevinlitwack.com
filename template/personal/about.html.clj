@@ -57,7 +57,7 @@
    things that’s ever happened to me.")
 
 (p "Since the conclusion of the sailing trip in May of 2011, I’ve been
-   searching for the next big thing.  After toying with a start-up idea, I
+   searching for the next big thing. After toying with a start-up idea, I
    spent a year at Amazon giving the big company thing another shot. While I
    learned a ton there, perhaps the most salient discovery was that full-time
    employment at a big company just isn’t for me.")

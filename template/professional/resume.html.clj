@@ -87,7 +87,7 @@
   [:span.project "Seattle to Singapore via Japan, Thailand, Sri Lanka..."]]
 
  (p {:style "margin-bottom:4.3pt"}
-    (link "Traveling by Sailboat" "/personal/kallisti"))
+    (link "Traveling by Sailboat" "/personal/kallisti.html"))
 
  [:ul {:style "margin-top:0in" :type "disc"}
   [:li "With one crew-mate and no prior experience: planned and sailed 16,000+ nautical miles"]
