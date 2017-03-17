@@ -12,7 +12,7 @@
  ;;     "/"    => "/YYYY-MM/POST.html"
  ;;     "/foo" => "/foo/YYYY-MM/POST.html"
  :url-base     "/"
- :blog-base    "/blog"
+ :blog-base    "blog"
 
  ;; dev server port
  ;;   default value: 8080
@@ -23,7 +23,7 @@
  :lang "en"
 
  ;; default site data
- :site {:atom-base  "http://kevinlitwack.com/"
+ :site {:atom-base  "http://kevinlitwack.com"
         :charset    "utf-8"
         :blog-title "Evolving Ideas"
         :site-title "Kevin Litwack"
